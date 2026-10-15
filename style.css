@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #2b2621;
+    background-color: #3b3733;
     font-family: sans-serif;
     color: #ffffff;
 }
@@ -85,15 +85,30 @@ body {
 
 
 .main {
-    max-width: 800px;
+    display: flex;
+    max-width: 1100px;
     margin: 0 auto;
     background-color: #000000;
     min-height: 100vh;
-    padding: 30px 20px;
+}
+
+
+.lateral-izquierda, .lateral-derecha {
+    width: 200px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+.lateral-izquierda img, .lateral-derecha img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
 .content {
+    flex: 1;
+    padding: 30px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
