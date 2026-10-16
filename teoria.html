@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teoría - Usabilidad en videojuegos</title>
+    <title>Teoria - Usabilidad en videojuegos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <aside class="lateral-izquierda"><img src="img/pruebaIZQ.png" alt="Lateral izquierdo"></aside>
     <div class="contenedor-central">
         <header class="header">
-            <div class="logo-container"><a href="index.html" class="logo-box">logo</a></div>
-            <div class="cabecera-titulo">Usabilidad en videojuegos</div>
-            <div class="log-container"><a href="contacto.html" class="login-btn">LOGIN / SIGN UP</a></div>
+            <div class="logo-container">
+                <a href="index.html" class="logo-box">Biblioteca Informatica</a>
+            </div>
+            <div class="busqueda-container">
+                <input type="text" class="busqueda-bar" placeholder="Buscar...">
+            </div>
+            <div class="log-container">
+                <a href="contacto.html" class="login-btn">LOGIN / SIGN UP</a>
+            </div>
+            <div class="logo-container">
+                <a href="index.html" class="login-btn">Endika Vaquero</a>
+            </div>
         </header>
         <nav class="nav-bar">
             <a href="index.html" class="inicio">INICIO</a>
@@ -20,9 +29,11 @@
             <a href="contacto.html" class="contacto">CONTACTO</a>
         </nav>
         <main class="main">
-            <div class="content">
+            <div class="content" id="arriba">
                 <div class="titulo"><h1>Teoria sobre usabilidad</h1></div>
                 <p class="intro-teoria">Aqui estan los distintos apartados del temario. Pulsa en uno de los botones para ir directamente a ese contenido.</p>
+                
+           
                 <div class="navegacion-teoria">
                     <h3>Indice de Temario</h3>
                     <div class="contenedor-botones">
@@ -39,56 +50,135 @@
                     </div>
                 </div>
 
+
+                <section class="texto seccion-temario">
+                    <h2>Puntos clave del temario</h2>
+                    <p>Durante el estudio de la usabilidad aplicada al desarrollo de interfaces, tendremos en cuenta los siguientes aspectos fundamentales:</p>
+                    <ul>
+                        <li>Análisis de la experiencia de usuario y fricciones iniciales.</li>
+                        <li>Evaluación de la claridad visual y diseño de interfaces.</li>
+                        <li>Prevención de errores y optimización de controles.</li>
+                    </ul>
+                </section>
+
+
                 <section id="innovacion" class="texto seccion-temario">
                     <h2>Usabilidad vs Innovación</h2>
                     <p>Si el juego es lo suficientemente innovador, tal vez pueda funcionar con problemas de usabilidad significativos, ya que los jugadores están dispuestos a hacer un esfuerzo extra si experimentan algo único.</p>
-                    <p>Por ejemplo, Minecraft funcionó con algunos problemas de usabilidad porque ofrecía una experiencia creativa profunda y diferente a la de otros juegos.</p>
+                    <p>Por ejemplo, <em>Minecraft</em> funcionó con algunos problemas de usabilidad porque ofrecía una experiencia creativa profunda y diferente a la de otros juegos.</p>
+                    <div class="imagen">
+                        <img src="img/minecrft.jpg" alt="innovación en videojuegos">
+                    </div>
+                    <a href="#arriba" class="enlace-teoria">↑ Volver arriba</a>
                 </section>
+
+
                 <section id="coste" class="texto seccion-temario">
                     <h2>Usabilidad vs Coste</h2>
                     <p>En los juegos gratuitos, la facilidad de uso es especialmente importante porque el compromiso inicial es bajo. Pequeñas frustraciones pueden hacer que los jugadores abandonen durante los primeros minutos.</p>
                     <p>También puede afectar a las compras dentro del juego si el usuario no entiende cómo funciona la tienda virtual.</p>
+                    <div class="imagen">
+                        <img src="img/lol.jpg" alt="usabilidad en juegos gratuitos">
+                    </div>
+                    <a href="#arriba" class="enlace-teoria">↑ Volver arriba</a>
                 </section>
+
+      
                 <section id="jugabilidad" class="texto seccion-temario">
                     <h2>Usabilidad vs Jugabilidad (El HUD)</h2>
                     <p>Una interfaz usable debería sentirse “transparente”. El HUD muestra información importante durante la partida, como la salud o la munición, para que el jugador no tenga que recordarla o buscarla en menús.</p>
                     <p>Eliminarlo por completo puede reducir la inmersión si obliga a abrir menús constantemente. Juegos como <em>Ghost of Tsushima</em> y <em>Dead Space</em> ofrecen ejemplos de cómo integrar información de forma más natural.</p>
+                    <div class="imagen">
+                        <img src="img/hud.jpeg" alt="HUD integrada en un videojuego">
+                    </div>
+                    <a href="#arriba" class="enlace-teoria">↑ Volver arriba</a>
                 </section>
+
+
                 <section id="heuristicas" class="texto seccion-temario">
                     <h2>Heurísticas en videojuegos</h2>
                     <p>Las heurísticas son reglas prácticas para mejorar la interacción. En videojuegos se recomienda permitir controles personalizables, ofrecer respuestas inmediatas, presentar objetivos claros, evitar grandes bloques de texto y mantener una interfaz coherente.</p>
                     <p>También es importante que el jugador sienta que tiene el control y que el juego le ayude a recuperarse de errores que no forman parte del desafío.</p>
+                    <div class="imagen">
+                        <img src="img/skate3.jpg" alt="heurísticas de usabilidad">
+                    </div>
+                    <a href="#arriba" class="enlace-teoria">↑ Volver arriba</a>
                 </section>
+
+           
                 <section id="gestalt" class="texto seccion-temario">
                     <h2>Principios de percepción de Gestalt</h2>
                     <p>Estos principios explican cómo organizamos visualmente los elementos. Por ejemplo, los elementos cercanos entre sí suelen percibirse como parte del mismo grupo.</p>
                     <p>La iconografía debe ser clara y los elementos importantes deben destacar del entorno. Si hay demasiadas señales del mismo color, puede resultar difícil distinguir cuál es la más importante.</p>
+                    <div class="imagen">
+                        <img src="img/re4.jpeg" alt="Ejemplo Gestalt">
+                    </div>
+                    <a href="#arriba" class="enlace-teoria">↑ Volver arriba</a>
                 </section>
+
                 <section id="forma" class="texto seccion-temario">
                     <h2>La forma sigue a la función</h2>
                     <p>La forma de un personaje, icono u objeto debe ayudar a entender su significado. Por ejemplo, un botiquín con una cruz puede indicar que recupera salud.</p>
                     <p>Cuando un objeto parece interactivo pero no lo es, puede generar frustración. La apariencia debe ayudar al jugador a comprender qué puede hacer.</p>
+                    <div class="imagen">
+                        <img src="img/mhworld.jpg" alt="Objetos interactivos">
+                    </div>
+                    <a href="#arriba" class="enlace-teoria">↑ Volver arriba</a>
                 </section>
+
                 <section id="consistencia" class="texto seccion-temario">
                     <h2>La importancia de la consistencia</h2>
                     <p>Los signos, los comentarios, los controles, la interfaz, la navegación del menú, las reglas y las convenciones generales en un videojuego deben ser coherentes.</p>
-                    <p>Si objetos parecidos funcionan de forma distinta sin una señal clara, pueden confundir al jugador. Lo mismo ocurre si los controles cambian entre situaciones similares.</p>
+                    <p>Si objetos parecidos funcionan de forma distinta sin una señal clara, pueden confundir al jugador. Lo mismo ocurre si los controles cambian entre situaciones similares. Puedes ver más detalles de análisis visual en este <a href="https://www.youtube.com/watch?v=yZm60-Ra0hk" target="_blank">vídeo externo de YouTube sobre usabilidad</a>.</p>
+                    <div class="imagen">
+                        <img src="img/tlou2.jpg" alt="consistencia en los controles">
+                    </div>
+                    <a href="#arriba" class="enlace-teoria">↑ Volver arriba</a>
                 </section>
+
+      
                 <section id="errores" class="texto seccion-temario">
                     <h2>Prevención y recuperación de errores</h2>
                     <p>Los desarrolladores deben anticiparse a errores que causan frustración innecesaria. Por ejemplo, los botones de confirmar y cancelar no deberían estar demasiado juntos si eso aumenta el riesgo de pulsar el equivocado.</p>
                     <p>En acciones importantes o irreversibles conviene incluir mensajes de confirmación.</p>
+                    <div class="imagen">
+                        <img src="img/zelda.jpg" alt="prevenir errores del usuario">
+                    </div>
+                    <a href="#arriba" class="enlace-teoria">↑ Volver arriba</a>
                 </section>
+
+           
                 <section id="flexibilidad" class="texto seccion-temario">
                     <h2>Flexibilidad y accesibilidad</h2>
                     <p>Permitir ajustes como reasignar controles, cambiar el tamaño de la letra o modificar los colores puede hacer el juego más cómodo y accesible para distintos jugadores.</p>
                     <p>También es útil permitir que cada persona elija un nivel de dificultad adecuado a sus preferencias.</p>
+                    <div class="imagen">
+                        <img src="img/oni.jpg" alt="accesibilidad y configuración">
+                    </div>
+                    <a href="#arriba" class="enlace-teoria">↑ Volver arriba</a>
                 </section>
+
+               
                 <section id="feedback" class="texto seccion-temario">
                     <h2>Feedback en tiempo real</h2>
                     <p>El feedback informa al jugador de cómo responde el juego a sus acciones. Puede aparecer mediante sonidos, animaciones, cambios en las estadísticas o mensajes en pantalla.</p>
                     <p>Juegos como <em>World of Warcraft</em> muestran el progreso del personaje al ganar experiencia y subir de nivel, lo que ayuda a que el jugador perciba sus avances.</p>
+                    <div class="imagen">
+                        <img src="img/wownivel.jpg" alt="subida de nivel ">
+                    </div>
+                    <a href="#arriba" class="enlace-teoria">↑ Volver arriba</a>
                 </section>
+
+              
+                <section class="texto seccion-temario">
+                    <h2>Enlaces externos de referencia</h2>
+                    <p>Recursos externos recomendados para la materia:</p>
+                    <ul>
+                        <li><a href="https://www.nngroup.com/" target="_blank">Nielsen Norman Group - UX Research</a></li>
+                        <li><a href="https://gamedev.net/" target="_blank">GameDev.net - Comunidad de desarrollo</a></li>
+                    </ul>
+                </section>
+
                 <a class="enlace-teoria" href="index.html">← Volver al inicio</a>
             </div>
             <footer class="footer"><span>Usabilidad en videojuegos</span><a href="contacto.html">Contacto</a></footer>
