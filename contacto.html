@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Usabilidad en videojuegos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="lateral-izquierda"><img src="img/pruebaIZQ.png" alt="Lateral izquierdo"></aside>
+    <div class="contenedor-central">
+        <header class="header">
+            <div class="logo-container"><a href="index.html" class="logo-box">logo</a></div>
+            <div class="cabecera-titulo">Usabilidad en videojuegos</div>
+            <div class="log-container"><a href="contacto.html" class="login-btn">LOGIN / SIGN UP</a></div>
+        </header>
+        <nav class="nav-bar">
+            <a href="index.html" class="inicio">INICIO</a>
+            <a href="teoria.html" class="otros">OTROS ARTICULOS</a>
+            <a href="contacto.html" class="contacto activo">CONTACTO</a>
+        </nav>
+        <main class="main">
+            <div class="content">
+                <div class="titulo"><h1>Contacto</h1></div>
+                <section class="text-block">
+                    <p>Si tienes alguna duda o sugerencia sobre la página, puedes ponerte en contacto con nosotros mediante los siguientes datos.</p>
+                </section>
+                <section class="texto seccion-temario contacto-bloque">
+                    <h2>Información de contacto</h2>
+                    <p><strong>Correo electrónico:</strong> tucorreo@ejemplo.com</p>
+                    <p><strong>Horario:</strong> de lunes a viernes, de 9:00 a 17:00.</p>
+                    <p class="aviso-contacto">Cambia el correo de ejemplo por tu dirección antes de publicar la web.</p>
+                </section>
+                <section class="texto seccion-temario contacto-bloque">
+                    <h2>Envianos un mensaje</h2>
+                    <form class="formulario-contacto" action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="Nombre" required>
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" name="Correo" required>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="Mensaje" rows="5" required></textarea>
+                        <button type="submit" class="boton-temario">Enviar mensaje</button>
+                    </form>
+                    <p class="aviso-contacto">El formulario abre el programa de correo del usuario. Para recibir mensajes directamente en la web hará falta configurar un servicio adicional.</p>
+                </section>
+                <a class="enlace-teoria" href="index.html">← Volver al inicio</a>
+            </div>
+            <footer class="footer"><span>Usabilidad en videojuegos</span><a href="teoria.html">Ver teoría</a></footer>
+        </main>
+    </div>
+    <aside class="lateral-derecha"><img src="img/pruebaDER.png" alt="Lateral derecho"></aside>
+</body>
+</html>
